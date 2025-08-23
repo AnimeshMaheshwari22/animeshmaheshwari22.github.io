@@ -1,4 +1,5 @@
 import { Icons } from "@/components/icons";
+import { link } from "fs";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
@@ -162,6 +163,7 @@ in multimodal fusion and model distillation.`,
     {
       title: "Machine Learning Reproducibility Challenge 2020",
       href: "https://openreview.net/pdf?id=DmNeiy8i5lu",
+      dates: "",
       active: false,
       description:
         `Published a report verifying claims from the paper Principal
@@ -181,9 +183,11 @@ Feature Visualisation in Convolutional Neural Networks (ECCV 2020).`,
       video:
         "",
     },
+
+
     {
       title: "Multimodal Digital Health Assistant",
-      href: "https://magicui.design",
+      href: "",
       dates: "",
       active: true,
       description:
@@ -201,7 +205,7 @@ pipeline over a vector database to power a Q&A chatbot.`,
       links: [
         {
           type: "Demo",
-          href: "https://magicui.design",
+          href: "",
           icon: <Icons.globe className="size-3" />,
         },
         {
@@ -372,10 +376,13 @@ structural similarity, and feature matching algorithms. Delivered a complete sys
         "PyTorch",
         "OpenCV"
       ],
+      links: [],
+      
       image: "/changedet.png",
       video:
         "",
     },
+    
   ],
   hackathons: [
     {
@@ -399,7 +406,7 @@ pipeline using PyTorch, OpenCV, TensorFlow for detecting malpractice in online e
         `Secured 2nd place nationwide in the EY GDS Hackathon, competing against top industry and student teams from across the country with a project on Social Media Listening, leveraging advanced data analysis to evaluate EY’s global social media presence, uncover regions with weak engagement, and propose strategic, data-driven solutions to enhance brand visibility worldwide.`,
       image:
         "/ey.webp",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+      mlh: "",
       links: [],
     },
 
@@ -423,7 +430,7 @@ pipeline using PyTorch, OpenCV, TensorFlow for detecting malpractice in online e
         `Ranked in the top 6% out of 11,000+ participants in AccioJobs CodeWars, a national-level Data Structures & Algorithms competition.`,
       image:
         "/accio.webp",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+      mlh: "",
       links: [],
     },
 
