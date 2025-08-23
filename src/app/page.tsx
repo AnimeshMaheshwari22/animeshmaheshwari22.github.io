@@ -199,7 +199,7 @@ export default function Page() {
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                I am looking for the next challenge in the Artificial and Machine Learning Engineering space and would love to discuss how I can contribute to your team's mission with my skills. Please feel free to reach out over LinkedIn/X 😊
+                I am looking for the next challenge in the Artificial and Machine Learning Engineering space and would love to discuss how I can contribute with my skills. Please feel free to reach out over LinkedIn/X 😊
                 <Link
                   href={DATA.contact.social.X.url}
                   className="text-blue-500 hover:underline"
