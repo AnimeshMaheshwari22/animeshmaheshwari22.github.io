@@ -6,7 +6,7 @@ export const DATA = {
   initials: "AM",
   url: "https://animeshmaheshwari22.github.io",
   location: "India",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  locationLink: "",
   description:
     "I love working in Machine Learning, Computer Vision, Generative AI, NLP, Data Science, MLOps. ",
   summary:
