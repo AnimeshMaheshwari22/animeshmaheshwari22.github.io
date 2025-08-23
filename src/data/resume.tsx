@@ -139,7 +139,39 @@ RGB-only baselines by training a transformer model with ground-truth depth and i
 ablation studies to validate architectural improvements for real-time robotic perception.
 • Engineered custom data processing pipelines and optimized transformer models for deployment, gaining deep expertise
 in multimodal fusion and model distillation.`,
+    },
+
+        {
+      company: "Giftolexia Solutions",
+      href: "https://giftolexia.com/about-us-2/",
+      badges: [],
+      location: "Bengaluru, Karnataka",
+      title: "Machine Learning R&D Intern (Part-time)",
+      logoUrl: "/giftolexia.png",
+      start: "July 2019",
+      end: "August 2021",
+      description:
+        `• Webcam-based Gaze Tracking: Developed an economical on-device gaze tracker using OpenCV and landmark detection.
+• Reading Difficulty Prediction: Built a 97% accurate ML system using decision trees to predict reading difficulties.
+Technologies: Python, Scikit-Learn, Pandas, Numpy`,
+    },
+
+            {
+      company: "SRS Valutech Systems",
+      href: "https://giftolexia.com/about-us-2/",
+      badges: [],
+      location: "Bengaluru, Karnataka",
+      title: "Machine Learning and Automation Intern",
+      logoUrl: "/srs.jpeg",
+      start: "May 2018",
+      end: "August 2018",
+      description:
+        `• Developed a 97% accurate vehichle and tyre object detection system deployed on edge device cameras. Led the complete project lifecycle from data annotation to model fine-tuning and deployment.
+• Designed and implemented an automated testing pipeline for an OEM’s inventory management admin console using Selenium and Python, integrating 50+ end-to-end test cases to ensure reliability and scalability.`,
     }
+
+
+
   ],
   education: [
     {
@@ -167,7 +199,7 @@ in multimodal fusion and model distillation.`,
       active: false,
       description:
         `Published a report verifying claims from the paper Principal
-Feature Visualisation in Convolutional Neural Networks (ECCV 2020).`,
+Feature Visualisation in Convolutional Neural Networks (ECCV 2020). Verified all the central claims with extensive experimentation and compared it with GradCAM approach.`,
       technologies: [
         "PyTorch",
         "OpenCV"
@@ -205,7 +237,7 @@ pipeline over a vector database to power a Q&A chatbot.`,
       links: [
         {
           type: "Demo",
-          href: "",
+          href: "https://www.youtube.com/watch?v=uHZF7q88RnE",
           icon: <Icons.globe className="size-3" />,
         },
         {
@@ -214,8 +246,8 @@ pipeline over a vector database to power a Q&A chatbot.`,
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      image: "/axxess_hackathon_new.png",
+      video: "",
     },
 
     {
@@ -243,7 +275,7 @@ processing, benefiting multiple algorithms.`,
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/kornia_new.png",
+      image: "/kornialogo.png",
       video: "",
     },
 
@@ -352,10 +384,10 @@ company financials for recommendation. Curated a large scale synthetic dataset w
         {
           type: "Code",
           href: "https://github.com/HackUTD-X/backend",
-          icon: <Icons.globe className="size-3" />,
+          icon: <Icons.github className="size-3" />,
         }
       ],
-      image: "/hackathon_new.png",
+      image: "/hackutd.jpg",
       video:
         "",
     },
