@@ -355,7 +355,7 @@ company financials for recommendation. Curated a large scale synthetic dataset w
           icon: <Icons.globe className="size-3" />,
         }
       ],
-      image: "/hackathon.png",
+      image: "/hackathon_new.png",
       video:
         "",
     },
