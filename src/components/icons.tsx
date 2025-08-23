@@ -4,7 +4,20 @@ export type IconProps = React.HTMLAttributes<SVGElement>;
 
 export const Icons = {
   globe: (props: IconProps) => <GlobeIcon {...props} />,
-  email: (props: IconProps) => <MailIcon {...props} />,
+  // email: (props: IconProps) => <MailIcon {...props} />,
+email: (props: IconProps) => (
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
+    <title>Email</title>
+    <path
+      fill="currentColor"
+      d="M20 4H4C2.897 4 2 4.897 2 6v12c0 
+         1.103.897 2 2 2h16c1.103 0 2-.897 
+         2-2V6c0-1.103-.897-2-2-2zm0 
+         2v.511l-8 5.333-8-5.333V6h16zM4 
+         18V8.489l8 5.333 8-5.333V18H4z"
+    />
+  </svg>
+),
   linkedin: (props: IconProps) => (
     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
       <title>LinkedIn</title>
