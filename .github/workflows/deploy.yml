@@ -2,8 +2,8 @@ name: Deploy Next.js site to GitHub Pages
 
 on:
   push:
-    branches: ["main"]  # 👈 adjust if your default branch is different
-  workflow_dispatch:    # 👈 allows manual trigger
+    branches: ["main"]  # adjust if your default branch is different
+  workflow_dispatch:    # allows manual trigger
 
 permissions:
   contents: read
@@ -36,7 +36,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .next/export   # 👈 output directory for static site
+          path: .next/out   # ✅ fix here
 
   deploy:
     environment:
