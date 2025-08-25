@@ -90,118 +90,120 @@ export const DATA = {
     },
   },
 
-  work: [
-    {
-      company: "Ushur AI Labs",
-      href: "https://ushur.ai/",
-      badges: [],
-      location: "Santa Clara, California",
-      title: "Data Science Intern (Generative AI)",
-      logoUrl: "/ushur.jpeg",
-      start: "May 2024",
-      end: "December 2024",
-      description:
-        `Fine-tuned Large Language Models using SFT, boosting long-text classification accuracy by 15% over baseline
-through instruction tuning. Applied quantization to enable scalable, low-latency inference in production.
-• Fine-tuned and evaluated Vision-Language Models for structured data extraction from complex documents,
-achieving 95% entity extraction accuracy and outperforming OCR+LLM baselines. Analyzed 18 different models.
-• Deployed optimized LLMs into high-throughput, low-latency production environments. Conducted extensive
-ablation studies for the optimal cloud configuration.
-• Prompt Engineering: Optimized prompts and implemented guardrails on OpenAI APIs, reducing LLM usage costs
-by 20% while maintaining output quality and reliability.`
-    },
-    {
-      company: "Mercedes-Benz R&D India",
-      badges: [],
-      href: "https://www.mbrdi.co.in/",
-      location: "Bengaluru, Karnataka",
-      title: "Software Engineer",
-      logoUrl: "/mercedes.jpeg",
-      start: "August 2021",
-      end: "July 2023",
-      description:
-        `Engineered an end-to-end NLP pipeline using Transformers and Pinecone to automate bug triage, reducing manual
-effort by over 72 hours per release cycle. Deployed the model on Azure ML studio.
-• Designed and deployed a graph-enhanced RAG system for an internal knowledge-based Q&A chatbot, improving
-documentation retrieval accuracy and reducing average bug resolution time by 20%.
-• Automation & Monitoring: Developed full-stack web applications (Node.js, ReactJS, SQL) that automated monitoring
-and governance processes, eliminating 120+ hours of manual work per month across business units. Implemented
-CI/CD pipelines to ensure seamless deployment and reliability.`,
-    },
-    {
-      company: "Intelligent Robotics and Vision Lab, UT Dallas",
-      href: "https://labs.utdallas.edu/irvl/",
-      badges: [],
-      location: "Remote",
-      title: "Computer Vision Research Assistant",
-      logoUrl: "/utd.png",
-      start: "January 2024",
-      end: "Present",
-      description:
-        `Led end-to-end research on unseen object instance segmentation, achieving a 14-point F-score improvement over
-RGB-only baselines by training a transformer model with ground-truth depth and inferring with synthetic depth.
-• Prototyped and evaluated novel depth-aware fusion techniques within vision transformers; performed extensive
-ablation studies to validate architectural improvements for real-time robotic perception.
-• Engineered custom data processing pipelines and optimized transformer models for deployment, gaining deep expertise
-in multimodal fusion and model distillation.`,
-    },
+work: [
+  {
+    company: "Ushur AI Labs",
+    href: "https://ushur.ai/",
+    badges: [],
+    location: "Santa Clara, California",
+    title: "Data Science Intern (Generative AI)",
+    logoUrl: "/ushur.jpeg",
+    start: "May 2024",
+    end: "December 2024",
+    description: [
+      "Fine-tuned Large Language Models using SFT, boosting long-text classification accuracy by 15% over baseline through instruction tuning.",
+      "Applied quantization to enable scalable, low-latency inference in production.",
+      "Fine-tuned and evaluated Vision-Language Models for structured data extraction from complex documents, achieving 95% entity extraction accuracy and outperforming OCR+LLM baselines. Analyzed 18 different models.",
+      "Deployed optimized LLMs into high-throughput, low-latency production environments. Conducted extensive ablation studies for the optimal cloud configuration.",
+      "Optimized prompts and implemented guardrails on OpenAI APIs, reducing LLM usage costs by 20% while maintaining output quality and reliability."
+    ]
+  },
+  {
+    company: "Mercedes-Benz R&D India",
+    badges: [],
+    href: "https://www.mbrdi.co.in/",
+    location: "Bengaluru, Karnataka",
+    title: "Software Engineer",
+    logoUrl: "/mercedes.jpeg",
+    start: "August 2021",
+    end: "July 2023",
+    description: [
+      "Engineered an end-to-end NLP pipeline using Transformers and Pinecone to automate bug triage, reducing manual effort by over 72 hours per release cycle. Deployed the model on Azure ML studio.",
+      "Designed and deployed a graph-enhanced RAG system for an internal knowledge-based Q&A chatbot, improving documentation retrieval accuracy and reducing average bug resolution time by 20%.",
+      "Developed full-stack web applications (Node.js, ReactJS, SQL) that automated monitoring and governance processes, eliminating 120+ hours of manual work per month across business units.",
+      "Implemented CI/CD pipelines to ensure seamless deployment and reliability."
+    ]
+  },
+  {
+    company: "Intelligent Robotics and Vision Lab, UT Dallas",
+    href: "https://labs.utdallas.edu/irvl/",
+    badges: [],
+    location: "Remote",
+    title: "Computer Vision Research Assistant",
+    logoUrl: "/utd.png",
+    start: "January 2024",
+    end: "Present",
+    description: [
+      "Led end-to-end research on unseen object instance segmentation, achieving a 14-point F-score improvement over RGB-only baselines by training a transformer model with ground-truth depth and inferring with synthetic depth.",
+      "Prototyped and evaluated novel depth-aware fusion techniques within vision transformers; performed extensive ablation studies to validate architectural improvements for real-time robotic perception.",
+      "Engineered custom data processing pipelines and optimized transformer models for deployment, gaining deep expertise in multimodal fusion and model distillation."
+    ]
+  },
+  {
+    company: "Giftolexia Solutions",
+    href: "https://giftolexia.com/about-us-2/",
+    badges: [],
+    location: "Bengaluru, Karnataka",
+    title: "Machine Learning R&D Intern (Part-time)",
+    logoUrl: "/giftolexia.png",
+    start: "July 2019",
+    end: "August 2021",
+    description: [
+      "Developed an economical on-device gaze tracker using OpenCV and landmark detection.",
+      "Built a 97% accurate ML system using decision trees to predict reading difficulties.",
+      "Technologies used: Python, Scikit-Learn, Pandas, Numpy."
+    ]
+  },
+  {
+    company: "SRS Valutech Systems",
+    href: "https://giftolexia.com/about-us-2/",
+    badges: [],
+    location: "Bengaluru, Karnataka",
+    title: "Machine Learning and Automation Intern",
+    logoUrl: "/srs.jpeg",
+    start: "May 2018",
+    end: "August 2018",
+    description: [
+      "Developed a 97% accurate vehicle and tyre object detection system deployed on edge device cameras. Led the complete project lifecycle from data annotation to model fine-tuning and deployment.",
+      "Designed and implemented an automated testing pipeline for an OEM’s inventory management admin console using Selenium and Python, integrating 50+ end-to-end test cases to ensure reliability and scalability."
+    ]
+  }
+],
+education: [
+  {
+    school: "University of Texas at Dallas",
+    href: "https://engineering.utdallas.edu/",
+    degree: "M.S. in Computer Science (Intelligent Systems)",
+    logoUrl: "/utd.png",
+    start: "August 2023",
+    end: "May 2025",
+    description: [
+      "Machine Learning (A)",
+      "Natural Language Processing (A)",
+      "Computer Vision (A)",
+      "Big Data Analytics (A)",
+      "Database Design (A)"
+    ],
+    location: "Richardson, United States"
+  },
+  {
+    school: "Dayananda Sagar College of Engineering",
+    href: "https://dsce.edu.in/",
+    degree: "B.E. in Computer Science",
+    logoUrl: "/dsce.jpg",
+    start: "August 2017",
+    end: "August 2021",
+    description: [
+      "Machine Learning",
+      "Artificial Intelligence",
+      "Data Structures",
+      "Algorithms",
+      "Software Engineering"
+    ],
+    location: "Bengaluru, India"
+  }
+],
 
-        {
-      company: "Giftolexia Solutions",
-      href: "https://giftolexia.com/about-us-2/",
-      badges: [],
-      location: "Bengaluru, Karnataka",
-      title: "Machine Learning R&D Intern (Part-time)",
-      logoUrl: "/giftolexia.png",
-      start: "July 2019",
-      end: "August 2021",
-      description:
-        `• Webcam-based Gaze Tracking: Developed an economical on-device gaze tracker using OpenCV and landmark detection.
-• Reading Difficulty Prediction: Built a 97% accurate ML system using decision trees to predict reading difficulties.
-Technologies: Python, Scikit-Learn, Pandas, Numpy`,
-    },
-
-            {
-      company: "SRS Valutech Systems",
-      href: "https://giftolexia.com/about-us-2/",
-      badges: [],
-      location: "Bengaluru, Karnataka",
-      title: "Machine Learning and Automation Intern",
-      logoUrl: "/srs.jpeg",
-      start: "May 2018",
-      end: "August 2018",
-      description:
-        `• Developed a 97% accurate vehichle and tyre object detection system deployed on edge device cameras. Led the complete project lifecycle from data annotation to model fine-tuning and deployment.
-• Designed and implemented an automated testing pipeline for an OEM’s inventory management admin console using Selenium and Python, integrating 50+ end-to-end test cases to ensure reliability and scalability.`,
-    }
-
-
-
-  ],
-  education: [
-    {
-      school: "University of Texas at Dallas",
-      href: "https://engineering.utdallas.edu/",
-      degree: "M.S. in Computer Science (Intelligent Systems)",
-      logoUrl: "/utd.png",
-      start: "August 2023",
-      end: "May 2025",
-      description:
-      `Coursework: Machine Learning (A), Natural Language Processing (A), Computer Vision (A), Big Data Analytics (A),  Database Design(A)`,
-      location: "Richardson, United States"
-    },
-    {
-      school: "Dayananda Sagar College of Engineering",
-      href: "https://dsce.edu.in/",
-      degree: "B.E. in Computer Science",
-      logoUrl: "/dsce.jpg",
-      start: "August 2017",
-      end: "August 2021",
-      description:
-      `Coursework: Machine Learning, Artificial Intelligence, Data Structures, Algorithms, Software Engineering`,
-      location: "Bengaluru, India"
-    }
-  ],
   projects: [
     {
       title: "Machine Learning Reproducibility Challenge 2020",

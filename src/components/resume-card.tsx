@@ -17,7 +17,7 @@ interface ResumeCardProps {
   href?: string;
   badges?: readonly string[];
   period: string;
-  description?: string;
+  description?: string[];
   location?: string;
 }
 export const ResumeCard = ({
@@ -99,22 +99,25 @@ export const ResumeCard = ({
               </div>
             </div>
           </CardHeader>
-          {description && (
-            <motion.div
-              initial={{ opacity: 0, height: 0 }}
-              animate={{
-                opacity: isExpanded ? 1 : 0,
-                height: isExpanded ? "auto" : 0,
-              }}
-              transition={{
-                duration: 0.7,
-                ease: [0.16, 1, 0.3, 1],
-              }}
-              className="mt-2 text-xs sm:text-sm"
-            >
-              {description}
-            </motion.div>
-          )}
+{description && (
+  <motion.ul
+    initial={{ opacity: 0, height: 0 }}
+    animate={{
+      opacity: isExpanded ? 1 : 0,
+      height: isExpanded ? "auto" : 0,
+    }}
+    transition={{
+      duration: 0.7,
+      ease: [0.16, 1, 0.3, 1],
+    }}
+    className="mt-2 pl-4 list-disc text-xs sm:text-sm space-y-1"
+  >
+    {description.map((point, i) => (
+      <li key={i}>{point}</li>
+    ))}
+  </motion.ul>
+)}
+
         </div>
       </Card>
     </Link>
