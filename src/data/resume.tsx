@@ -312,7 +312,7 @@ by DETR based methods. Developed the complete pipeline from data preprocessing t
         },
         {
           type: "Code",
-          href: "https://github.com/dillionverma/llm.report",
+          href: "https://github.com/AnimeshMaheshwari22/3D-Object-Detection",
           icon: <Icons.github className="size-3" />,
         },
       ],
