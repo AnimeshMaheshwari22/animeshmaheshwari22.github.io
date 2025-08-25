@@ -112,7 +112,7 @@ export default function Page() {
         </div>
       </section>
       <section id="projects">
-        <div className="space-y-12 w-full py-12">
+        <div className="space-y-12 w-full py-8">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -153,7 +153,7 @@ export default function Page() {
         </div>
       </section>
       <section id="hackathons">
-        <div className="space-y-12 w-full py-12">
+        <div className="space-y-12 w-full py-6">
           <BlurFade delay={BLUR_FADE_DELAY * 13}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -195,11 +195,12 @@ export default function Page() {
               <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
                 Contact
               </div>
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                Get in Touch
-              </h2>
+              <h6 className="text-base tracking-tighter sm:text-2xl">
+                📧 animesh.m2202@gmail.com | 📱 +91-9589089315
+              </h6>
+
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                I am looking for the next challenge in the Artificial and Machine Learning Engineering space and would love to discuss how I can contribute with my skills. Please feel free to reach out over LinkedIn/X 😊
+                I am seeking my next opportunity in Artificial Intelligence and Machine Learning Engineering and would love to connect on how I can contribute with my skills. Feel free to reach out via Email/LinkedIn/X
                 <Link
                   href={DATA.contact.social.X.url}
                   className="text-blue-500 hover:underline"
