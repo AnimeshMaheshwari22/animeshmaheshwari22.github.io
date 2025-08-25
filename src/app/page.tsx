@@ -13,32 +13,62 @@ const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
   return (
-    <main className="flex flex-col min-h-[100dvh] space-y-10">
-      <section id="hero">
-        <div className="mx-auto w-full max-w-2xl space-y-8">
-          <div className="gap-2 flex justify-between">
-            <div className="flex-col flex flex-1 space-y-1.5">
-              <BlurFadeText
-                delay={BLUR_FADE_DELAY}
-                className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
-                yOffset={8}
-                text={`Hi, I'm ${DATA.name.split(" ")[0]}`}
+    <main className="flex flex-col min-h-[100dvh] space-y-6">
+<section id="hero">
+  <div className="mx-auto w-full max-w-2xl space-y-4">
+    <div className="gap-2 flex justify-between items-start">
+      <div className="flex-col flex flex-1 space-y-1.5">
+        <BlurFadeText
+          delay={BLUR_FADE_DELAY}
+          className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
+          yOffset={8}
+          text={`Hi, I'm ${DATA.name.split(" ")[0]}`}
+        />
+        <BlurFadeText
+          className="max-w-[600px] md:text-xl"
+          delay={BLUR_FADE_DELAY}
+          text={DATA.description}
+        />
+      </div>
+
+      {/* Avatar */}
+      <div className="flex flex-col items-center">
+        <BlurFade delay={BLUR_FADE_DELAY}>
+          <Avatar className="size-28 border">
+            <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
+            <AvatarFallback>{DATA.initials}</AvatarFallback>
+          </Avatar>
+        </BlurFade>
+
+        {/* Location below the avatar */}
+        <BlurFade delay={BLUR_FADE_DELAY * 2.5}>
+          <Link
+            href={DATA.locationLink || "#"}
+            target="_blank"
+            className="mt-2 inline-flex items-center gap-2 rounded-full bg-muted px-4 py-2 text-sm font-medium text-muted-foreground shadow-sm hover:bg-muted/70 transition"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-4 w-4 text-foreground/70"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fillRule="evenodd"
+                d="M10 2a6 6 0 00-6 6c0 4.418 6 10 6 10s6-5.582 6-10a6 6 0 00-6-6zm0 8a2 2 0 110-4 2 2 0 010 4z"
+                clipRule="evenodd"
               />
-              <BlurFadeText
-                className="max-w-[600px] md:text-xl"
-                delay={BLUR_FADE_DELAY}
-                text={DATA.description}
-              />
-            </div>
-            <BlurFade delay={BLUR_FADE_DELAY}>
-              <Avatar className="size-28 border">
-                <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
-                <AvatarFallback>{DATA.initials}</AvatarFallback>
-              </Avatar>
-            </BlurFade>
-          </div>
-        </div>
-      </section>
+            </svg>
+            {DATA.location}
+          </Link>
+        </BlurFade>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+      
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
           <h2 className="text-xl font-bold">About</h2>
