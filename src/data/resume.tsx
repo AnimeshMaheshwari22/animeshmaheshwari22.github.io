@@ -95,7 +95,7 @@ export const DATA = {
       company: "Ushur AI Labs",
       href: "https://ushur.ai/",
       badges: [],
-      location: "Santa Clara, California, United States",
+      location: "Santa Clara, California",
       title: "Data Science Intern (Generative AI)",
       logoUrl: "/ushur.jpeg",
       start: "May 2024",
@@ -114,7 +114,7 @@ by 20% while maintaining output quality and reliability.`
       company: "Mercedes-Benz R&D India",
       badges: [],
       href: "https://www.mbrdi.co.in/",
-      location: "Bengaluru, India",
+      location: "Bengaluru, Karnataka",
       title: "Software Engineer",
       logoUrl: "/mercedes.jpeg",
       start: "August 2021",
@@ -133,7 +133,7 @@ CI/CD pipelines to ensure seamless deployment and reliability.`,
       href: "https://labs.utdallas.edu/irvl/",
       badges: [],
       location: "Remote",
-      title: "Computer Vision Research Assistant - Remote",
+      title: "Computer Vision Research Assistant",
       logoUrl: "/utd.png",
       start: "January 2024",
       end: "Present",
@@ -186,14 +186,20 @@ Technologies: Python, Scikit-Learn, Pandas, Numpy`,
       logoUrl: "/utd.png",
       start: "August 2023",
       end: "May 2025",
+      description:
+      `Coursework: Machine Learning (A), Natural Language Processing (A), Computer Vision (A), Big Data Analytics (A),  Database Design(A)`,
+      location: "Richardson, United States"
     },
     {
       school: "Dayananda Sagar College of Engineering",
-      href: "https://uwaterloo.ca",
+      href: "https://dsce.edu.in/",
       degree: "B.E. in Computer Science",
       logoUrl: "/dsce.jpg",
       start: "August 2017",
       end: "August 2021",
+      description:
+      `Coursework: Machine Learning, Artificial Intelligence, Data Structures, Algorithms, Software Engineering`,
+      location: "Bengaluru, India"
     }
   ],
   projects: [
