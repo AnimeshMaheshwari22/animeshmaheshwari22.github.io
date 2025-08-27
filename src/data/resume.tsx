@@ -9,7 +9,7 @@ export const DATA = {
   location: "India",
   locationLink: "https://maps.app.goo.gl/tL18Mq4gCqTL3456A",
   description:
-    "I love working in Machine Learning, Computer Vision, Generative AI, NLP, Data Science, MLOps. ",
+    "I love working in Machine Learning, Generative AI, NLP, MLOps, Data Science",
   summary:
     "Experienced in NLP and Computer Vision, with expertise in fine-tuning and deploying LLMs, VLMs, and Vision Transformers; strong foundation in model optimization and scalable ML systems. Skilled in building end-to-end Generative AI pipelines from data collection and training to efficient cloud deployment.",
   avatarUrl: "/animesh.jpeg",
